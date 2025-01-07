@@ -36,12 +36,6 @@ def flip_card():
     canvas.itemconfig(card_title, text="English", fill="white")
 
 
-
-def check_new_words():
-    pass
-
-
-
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Flashy")
