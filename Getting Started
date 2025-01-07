@@ -1,0 +1,34 @@
+Sanskrit Flashcards App
+
+A Python-based flashcard application designed to help users learn Sanskrit vocabulary effectively. The app uses the Tkinter library for a simple graphical interface and allows users to:
+
+- View Sanskrit words and their English translations on flashcards.  
+- Remove learned words, with progress saved locally in a CSV file.  
+- Flip cards to see translations after a brief delay.  
+
+This project is ideal for anyone interested in expanding their Sanskrit vocabulary in an interactive and engaging way.
+
+Features:
+- Interactive flashcards with a timer-based flip mechanism.  
+- Persistent progress tracking via local CSV file storage.  
+- Clean and minimalist UI built with Tkinter.  
+
+Technologies:
+- Python
+- Tkinter for GUI  
+- Pandas for data handling  
+
+Getting Started:
+1. Clone the repository.  
+2. Ensure the following directory structure:  
+
+   /data
+      - sanskrit_words.csv
+      - words_to_learn.csv (optional)
+   /images
+      - card_front.png
+      - card_back.png
+      - right.png
+      - wrong.png
+   
+3. Run `main.py` to start the application.
